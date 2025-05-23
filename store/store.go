@@ -18,7 +18,7 @@ func (gaurav *Postgres) NewStore() error {
 		return fmt.Errorf("failed to connect to database: %w", err)
 	}
 	gaurav.DB = db
-	fmt.Printf("Database connection: %+v\n", db)
+	fmt.Printf("db: %+v\n", db)
 	return nil
 }
 

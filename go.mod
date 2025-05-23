@@ -3,6 +3,7 @@ module MANAGEMENT-2.0
 go 1.23.3
 
 require (
+	github.com/sirupsen/logrus v1.9.3
 	gorm.io/driver/postgres v1.5.11
 	gorm.io/gorm v1.26.1
 )
@@ -16,5 +17,6 @@ require (
 	github.com/jinzhu/now v1.1.5 // indirect
 	golang.org/x/crypto v0.17.0 // indirect
 	golang.org/x/sync v0.14.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/text v0.25.0 // indirect
 )
